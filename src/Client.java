@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Client {
@@ -8,7 +9,6 @@ public class Client {
     private String email;
     private Number suma;
     private Number perioada;
-
 
     public String getPrenume() {
         return prenume;
@@ -66,7 +66,5 @@ public class Client {
         setSuma(suma);
         setPerioada(perioada);
     }
-
-
-}
+    }
 

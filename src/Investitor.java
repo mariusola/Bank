@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Scanner;
 
 public class Investitor implements Comparable<Investitor> {
@@ -74,5 +75,17 @@ public class Investitor implements Comparable<Investitor> {
         }else{
             return 1;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Investitor{" +
+                "nume='" + nume + '\'' +
+                ", prenume='" + prenume + '\'' +
+                ", telefon='" + telefon + '\'' +
+                ", email='" + email + '\'' +
+                ", suma=" + suma +
+                ", dobanda=" + dobanda +
+                '}';
     }
 }
